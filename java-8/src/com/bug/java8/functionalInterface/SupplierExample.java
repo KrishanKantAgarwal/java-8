@@ -14,7 +14,7 @@ public class SupplierExample {
 	 * and return the type
 	 */
 	static Supplier<Student> studentSupplier = () -> {
-		return new Student("Dave",3,3.9,"male", Arrays.asList("swimming", "gymnastics","soccer")); 
+		return new Student("Dave",3,3.9,"male", Arrays.asList("swimming", "gymnastics","soccer"), 19); 
 	};
 	
 	static Supplier<List<Student>> studentListSupplier = () -> StudentDataBase.getAllStudents();
