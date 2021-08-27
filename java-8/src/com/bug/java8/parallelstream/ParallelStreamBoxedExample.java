@@ -33,6 +33,9 @@ public class ParallelStreamBoxedExample {
 		
 		sequentialSum(integerList);
 		parallelSum(integerList);
+		/**
+		 * do not use parallel stream with mutuable object
+		 */
 		
 	}
 }
