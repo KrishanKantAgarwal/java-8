@@ -24,7 +24,8 @@ public class FunctionExample {
 		System.out.println(result2);
 		
 		System.out.println();
-		System.out.println("Function compose and andThen: "); //If compose and andThen both are used, compose will run first
+		System.out.println("Function compose and andThen: "); 
+		//If compose and andThen both are used, compose will run first
 		String result3 = function1.andThen(function2).compose(function2).apply("Krishan");
 		System.out.println(result3);
 	}

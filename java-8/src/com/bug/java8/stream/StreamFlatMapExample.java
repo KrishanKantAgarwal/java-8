@@ -9,7 +9,8 @@ import com.bug.java8.models.StudentDataBase;
 public class StreamFlatMapExample {
 
 	/**
-	 * We are using flatMap here because Collectors.toList() can't able to identify the List<List<String>>
+	 * We are using flatMap here because Collectors.toList() 
+	 * can't able to identify the List<List<String>>
 	 * @return List<String>
 	 */
 	public static List<String> printStudentActivities(){
