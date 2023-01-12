@@ -51,7 +51,7 @@ public class StreamDistinctCountSorted {
 		System.out.println(getSortedDistinctStudentActivities());
 		
 		System.out.println();
-		System.out.println("Sorted Distinct Student Activities");
+		System.out.println("Count Sorted Distinct Student Activities");
 		System.out.println(getCountOfDistinctStudentActivities());
 	}
 

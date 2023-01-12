@@ -10,7 +10,7 @@ public class StreamFlatMapExample {
 
 	/**
 	 * We are using flatMap here because Collectors.toList() 
-	 * can't able to identify the List<List<String>>
+	 * can't able to identify the Stream<List<String>>
 	 * @return List<String>
 	 */
 	public static List<String> printStudentActivities(){
