@@ -17,6 +17,6 @@ public class BinaryOperatorExample {
 	public static void main(String[] args) {
 		System.out.println(binaryOperator1.apply(91, 9));
 		System.out.println(binaryOperator2.apply(100, 99));
-		System.out.println(binaryOperator2.apply(10, 19));
+		System.out.println(binaryOperator3.apply(10, 19));
 	}
 }
